@@ -2,8 +2,8 @@
 set -euo pipefail
 export IFS=$'\n\t'
 
-export KEYID1=0F6D5021A87F92BA
-export KEYID2=F9BC985B3BF972C7
+export KEYID1=F9BC985B3BF972C7
+export KEYID2=0F6D5021A87F92BA
 
 GPG=$(which gpg) # the path for the gpg program
 PASSWORD_STORE_DIR=${PASSWORD_STORE_DIR:=$HOME/.password-store}
